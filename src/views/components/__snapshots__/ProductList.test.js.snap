@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductList /> Product list should match snapshot 1`] = `
+<ProductList
+  products={
+    Array [
+      Object {
+        "cta": "Shop Now",
+        "ctaLink": "/random/link/to/no/where",
+        "currency": "£",
+        "description": "Lets your pictures speak for themselves.",
+        "image": Object {
+          "alt": "Simple Canvas",
+          "path": "/images/product.jpg",
+        },
+        "price": 1500,
+        "priceLabel": "From",
+        "productLabel": "bestseller",
+        "title": "Simple Canvas",
+      },
+      Object {
+        "cta": "Shop Now",
+        "ctaLink": "/random/link/to/no/where",
+        "currency": "£",
+        "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+        "image": Object {
+          "alt": "Collage Canvas",
+          "path": "/images/product.jpg",
+        },
+        "price": 2500,
+        "priceLabel": "From",
+        "productLabel": "",
+        "title": "Collage Canvas",
+      },
+    ]
+  }
+>
+  <div
+    className="products-list"
+  >
+    <ProductItem
+      product={
+        Object {
+          "cta": "Shop Now",
+          "ctaLink": "/random/link/to/no/where",
+          "currency": "£",
+          "description": "Lets your pictures speak for themselves.",
+          "image": Object {
+            "alt": "Simple Canvas",
+            "path": "/images/product.jpg",
+          },
+          "price": 1500,
+          "priceLabel": "From",
+          "productLabel": "bestseller",
+          "title": "Simple Canvas",
+        }
+      }
+    >
+      <div
+        className="product"
+      >
+        <article
+          className="product-item"
+        >
+          <ProductHeader
+            product={
+              Object {
+                "cta": "Shop Now",
+                "ctaLink": "/random/link/to/no/where",
+                "currency": "£",
+                "description": "Lets your pictures speak for themselves.",
+                "image": Object {
+                  "alt": "Simple Canvas",
+                  "path": "/images/product.jpg",
+                },
+                "price": 1500,
+                "priceLabel": "From",
+                "productLabel": "bestseller",
+                "title": "Simple Canvas",
+              }
+            }
+          >
+            <header
+              className="product-header"
+            >
+              <span
+                className="product-label"
+              >
+                bestseller
+              </span>
+              <a
+                href="/random/link/to/no/where"
+              >
+                <picture
+                  className="product-image"
+                >
+                  <img
+                    alt="Simple Canvas"
+                    src="/images/product.jpg"
+                  />
+                </picture>
+              </a>
+            </header>
+          </ProductHeader>
+          <div
+            className="product-body"
+          >
+            <h2
+              className="product-title"
+            >
+              <a
+                href="/random/link/to/no/where"
+              >
+                Simple Canvas
+              </a>
+            </h2>
+            <p
+              className="product-description"
+            >
+              Lets your pictures speak for themselves.
+            </p>
+            <div>
+              <ProductPrice
+                product={
+                  Object {
+                    "cta": "Shop Now",
+                    "ctaLink": "/random/link/to/no/where",
+                    "currency": "£",
+                    "description": "Lets your pictures speak for themselves.",
+                    "image": Object {
+                      "alt": "Simple Canvas",
+                      "path": "/images/product.jpg",
+                    },
+                    "price": 1500,
+                    "priceLabel": "From",
+                    "productLabel": "bestseller",
+                    "title": "Simple Canvas",
+                  }
+                }
+              >
+                <p
+                  className="product-priceContainer"
+                >
+                  <span
+                    className="product-priceLabel"
+                  >
+                    From
+                     
+                  </span>
+                  <span
+                    className="product-price"
+                  >
+                    £
+                    1500
+                  </span>
+                </p>
+              </ProductPrice>
+              <ProductCta
+                product={
+                  Object {
+                    "cta": "Shop Now",
+                    "ctaLink": "/random/link/to/no/where",
+                    "currency": "£",
+                    "description": "Lets your pictures speak for themselves.",
+                    "image": Object {
+                      "alt": "Simple Canvas",
+                      "path": "/images/product.jpg",
+                    },
+                    "price": 1500,
+                    "priceLabel": "From",
+                    "productLabel": "bestseller",
+                    "title": "Simple Canvas",
+                  }
+                }
+              >
+                <a
+                  className="product-cta"
+                  href="/random/link/to/no/where"
+                >
+                  Shop Now
+                </a>
+              </ProductCta>
+            </div>
+          </div>
+          <div />
+        </article>
+      </div>
+    </ProductItem>
+    <ProductItem
+      product={
+        Object {
+          "cta": "Shop Now",
+          "ctaLink": "/random/link/to/no/where",
+          "currency": "£",
+          "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+          "image": Object {
+            "alt": "Collage Canvas",
+            "path": "/images/product.jpg",
+          },
+          "price": 2500,
+          "priceLabel": "From",
+          "productLabel": "",
+          "title": "Collage Canvas",
+        }
+      }
+    >
+      <div
+        className="product"
+      >
+        <article
+          className="product-item"
+        >
+          <ProductHeader
+            product={
+              Object {
+                "cta": "Shop Now",
+                "ctaLink": "/random/link/to/no/where",
+                "currency": "£",
+                "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+                "image": Object {
+                  "alt": "Collage Canvas",
+                  "path": "/images/product.jpg",
+                },
+                "price": 2500,
+                "priceLabel": "From",
+                "productLabel": "",
+                "title": "Collage Canvas",
+              }
+            }
+          >
+            <header
+              className="product-header"
+            >
+              <a
+                href="/random/link/to/no/where"
+              >
+                <picture
+                  className="product-image"
+                >
+                  <img
+                    alt="Collage Canvas"
+                    src="/images/product.jpg"
+                  />
+                </picture>
+              </a>
+            </header>
+          </ProductHeader>
+          <div
+            className="product-body"
+          >
+            <h2
+              className="product-title"
+            >
+              <a
+                href="/random/link/to/no/where"
+              >
+                Collage Canvas
+              </a>
+            </h2>
+            <p
+              className="product-description"
+            >
+              Can't choose just one pic? Put your favourite photos on one canvas - a collage.
+            </p>
+            <div>
+              <ProductPrice
+                product={
+                  Object {
+                    "cta": "Shop Now",
+                    "ctaLink": "/random/link/to/no/where",
+                    "currency": "£",
+                    "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+                    "image": Object {
+                      "alt": "Collage Canvas",
+                      "path": "/images/product.jpg",
+                    },
+                    "price": 2500,
+                    "priceLabel": "From",
+                    "productLabel": "",
+                    "title": "Collage Canvas",
+                  }
+                }
+              >
+                <p
+                  className="product-priceContainer"
+                >
+                  <span
+                    className="product-priceLabel"
+                  >
+                    From
+                     
+                  </span>
+                  <span
+                    className="product-price"
+                  >
+                    £
+                    2500
+                  </span>
+                </p>
+              </ProductPrice>
+              <ProductCta
+                product={
+                  Object {
+                    "cta": "Shop Now",
+                    "ctaLink": "/random/link/to/no/where",
+                    "currency": "£",
+                    "description": "Can't choose just one pic? Put your favourite photos on one canvas - a collage.",
+                    "image": Object {
+                      "alt": "Collage Canvas",
+                      "path": "/images/product.jpg",
+                    },
+                    "price": 2500,
+                    "priceLabel": "From",
+                    "productLabel": "",
+                    "title": "Collage Canvas",
+                  }
+                }
+              >
+                <a
+                  className="product-cta"
+                  href="/random/link/to/no/where"
+                >
+                  Shop Now
+                </a>
+              </ProductCta>
+            </div>
+          </div>
+          <div />
+        </article>
+      </div>
+    </ProductItem>
+  </div>
+</ProductList>
+`;
